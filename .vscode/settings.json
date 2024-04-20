@@ -1,3 +1,4 @@
 {
-  "cSpell.words": ["trpc"]
+  "cSpell.words": ["lucide", "trpc"],
+  "css.customData": [".vscode/tailwind.json"]
 }

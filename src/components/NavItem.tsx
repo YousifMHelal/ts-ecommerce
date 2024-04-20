@@ -2,13 +2,13 @@
 
 import React from "react";
 import { Button } from "./ui/button";
-import { PRODUCT_CATEGORY } from "@/config";
+import { PRODUCT_CATEGORIES } from "@/config";
 import { ChevronDown, Divide } from "lucide-react";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
 
-type Category = (typeof PRODUCT_CATEGORY)[number];
+type Category = (typeof PRODUCT_CATEGORIES)[number];
 
 interface NavItemProps {
   category: Category;
